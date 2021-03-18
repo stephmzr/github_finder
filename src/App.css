@@ -29,12 +29,12 @@ body {
 }
 
 a {
-  color: var(--primary-color);
+  color: var(--color-2);
   text-decoration: none;
 }
 
 a:hover {
-  color: #fff;
+  color: var(--color-3);
 }
 
 ul {
