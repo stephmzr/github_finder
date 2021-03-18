@@ -2,11 +2,16 @@
 
 /* Global Styles */
 :root {
-  --primary-color: #5e4c5a;
-  --dark-color: #55917f;
-  --light-color: #6bab90;
-  --danger-color: #e1f0c4;
-  --success-color: #ffe2d1;
+  --primary-color: #dc3545;
+  --dark-color: #333333;
+  --light-color: #f4f4f4;
+  --danger-color: #dc3545;
+  --success-color: #28a745;
+  --color-1: #5e4c5a;
+  --color-2: #55917f;
+  --color-3: #6bab90;
+  --color-4: #e1f0c4;
+  --color-5: #ffe2d1;
 }
 
 * {
@@ -29,7 +34,7 @@ a {
 }
 
 a:hover {
-  color: #666;
+  color: #fff;
 }
 
 ul {
@@ -79,11 +84,11 @@ img {
 }
 
 .text-success {
-  color: var(--success-color);
+  color: rgb(79, 192, 136);
 }
 
 .text-danger {
-  color: var(--danger-color);
+  color: #c02c69;
 }
 
 .text-center {
@@ -290,6 +295,51 @@ img {
 .badge-white,
 .alert-white {
   background: #fff;
+  color: #333;
+  border: #ccc solid 1px;
+}
+
+.btn-1,
+.bg-1,
+.badge-1,
+.alert-1 {
+  background: #5e4c5a;
+  color: #fff;
+  border: #5e4c5a solid 1px;
+}
+
+.btn-2,
+.bg-2,
+.badge-2,
+.alert-2 {
+  background: #55917f;
+  color: #fff;
+  border: #fff solid 1px;
+}
+
+.btn-3,
+.bg-3,
+.badge-3,
+.alert-3 {
+  background: #6bab90;
+  color: #fff;
+  border: #fff solid 1px;
+}
+
+.btn-4,
+.bg-4,
+.badge-4,
+.alert-4 {
+  background: #e1f0c4;
+  color: #333;
+  border: #fff solid 1px;
+}
+
+.btn-5,
+.bg-5,
+.badge-5,
+.alert-5 {
+  background: #ffe2d1;
   color: #333;
   border: #ccc solid 1px;
 }
