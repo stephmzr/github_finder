@@ -1,12 +1,12 @@
 import React from 'react'
 
-export const NotFound = () => {
+const NotFound = () => {
   return (
     <div>
-      <h1>Not found</h1>
-      <p className='lead'>This page does not exist !</p>
+      <h1>Not Found</h1>
+      <p className='lead'>This page doesn't exist !</p>
     </div>
   )
 }
 
-export default NotFound;
+export default NotFound
